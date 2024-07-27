@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: linear;
+    font-family: roboto;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+}
+.body{
+    padding: 20px 10px;
+}
+
+.body h1{
+    text-align: center;
+    color: #fff;
+}
+.body .pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.body .pesquisa input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius:8px ;
+}
+.body .pesquisa button{
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(239, 181, 36);
+    border-bottom-right-radius:8px ;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
