@@ -39,8 +39,3 @@ const InfoFive = ({info}) => {
 
 export default InfoFive
 
-
-// pelas informações recebidas do console, vimos que as previsões para os próximos dias está em um array com 40 elementos, cada dia tem 6 elementos e como só queremos renderizar um por dia, vamos ter que armazenar esta informação e depois filtrá-la, primeiro passo é criar uma let(já que o resultado vai ser alterado) e depois, vamos usar o método for off, na variável criada(forecast) ela vai receber as informações vindas do of(info.list), sabendo que a data vem num formato de timestamp e vamos converter para a data que possamos usar, criando uma variável, e ela recebe o método new Date( que converte datas) e como parâmetro o forecast que agora recebe as informações da lista: forecast.dt que é o formato da data e assim multiplicamos por mil e .toLocaleDateString()...
-
-
-//const nextFiveDays = Object.values(dayliForecast).slice(0,5), aqui transformamos em um array o valor do objeto e usamos o slice (0,5) para que seja enviado só os dos 5 dias posteriores
