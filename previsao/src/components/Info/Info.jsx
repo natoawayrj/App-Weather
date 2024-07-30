@@ -3,7 +3,7 @@ import './Info.css'
 const Info = ({weather}) => {
   console.log(weather)
   if (!weather || !weather.weather || !weather.weather[0]) {
-    return null; // ou você pode retornar um componente de loading ou mensagem de erro
+    return null; 
   }
     
   return (
@@ -31,7 +31,3 @@ const Info = ({weather}) => {
 
 export default Info
 
-
-///recebendo as informações da API pela pelo parâmetro desestruturado, agora podemos renderizar as informações da API, neste caso as informações para este componente são só o nome do local e o icone que representa o tempo, para pegar o nome é só adicionar o local de onde ele está vindo, já para o ícone 
-
-//`http://openweathermap.org/img/wn/${weather[0].icon}.png`
